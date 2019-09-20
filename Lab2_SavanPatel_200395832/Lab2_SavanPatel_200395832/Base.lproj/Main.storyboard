@@ -17,16 +17,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Login or Create Account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zu5-nM-KuG">
-                                <rect key="frame" x="32" y="374" width="351.33333333333326" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login or Create Account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zu5-nM-KuG">
+                                <rect key="frame" x="31.333333333333343" y="281.33333333333331" width="351.33333333333326" height="36"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
                                 <color key="textColor" red="0.67213087035190933" green="0.07979022920711798" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="yVO-qh-M0A">
-                                <rect key="frame" x="65" y="462" width="285" height="233"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="yVO-qh-M0A">
+                                <rect key="frame" x="64.666666666666686" y="357.33333333333331" width="285" height="232.99999999999994"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fSf-fB-m8j">
                                         <rect key="frame" x="0.0" y="0.0" width="285" height="69"/>
@@ -43,7 +41,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Jf-mM-5gK">
-                                        <rect key="frame" x="0.0" y="164" width="285" height="69"/>
+                                        <rect key="frame" x="0.0" y="164.00000000000006" width="285" height="69"/>
                                         <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <state key="normal" title="Signin with E-Mail" backgroundImage="Email">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -51,12 +49,11 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="GeorgianCollegeLogo_White" translatesAutoresizingMaskIntoConstraints="NO" id="idO-qq-uTU">
-                                <rect key="frame" x="169.66666666666666" y="29" width="75" height="113"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GeorgianCollegeLogo_White" translatesAutoresizingMaskIntoConstraints="NO" id="idO-qq-uTU">
+                                <rect key="frame" x="169.66666666666666" y="40" width="75" height="75"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u4s-Hp-2Oy">
-                                <rect key="frame" x="57" y="136" width="314.66666666666674" height="126.33333333333331"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u4s-Hp-2Oy">
+                                <rect key="frame" x="138" y="135" width="138" height="126.33333333333331"/>
                                 <string key="text">Georgian Social  Media
 App</string>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="25"/>
@@ -66,7 +63,15 @@ App</string>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="yVO-qh-M0A" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2Sh-YB-MDn"/>
+                            <constraint firstItem="idO-qq-uTU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="5dE-Xk-Nnm"/>
+                            <constraint firstItem="u4s-Hp-2Oy" firstAttribute="top" secondItem="idO-qq-uTU" secondAttribute="bottom" constant="20" id="Jze-pS-4wS"/>
+                            <constraint firstItem="idO-qq-uTU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KzD-p1-vld"/>
+                            <constraint firstItem="Zu5-nM-KuG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SJI-Cy-zfk"/>
                             <constraint firstItem="idO-qq-uTU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Whc-1L-dsg"/>
+                            <constraint firstItem="u4s-Hp-2Oy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hSL-S7-GTL"/>
+                            <constraint firstItem="yVO-qh-M0A" firstAttribute="top" secondItem="Zu5-nM-KuG" secondAttribute="bottom" constant="40" id="iEO-un-iOf"/>
+                            <constraint firstItem="Zu5-nM-KuG" firstAttribute="top" secondItem="u4s-Hp-2Oy" secondAttribute="bottom" constant="20" id="qZR-Bj-BOi"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
